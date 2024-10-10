@@ -1,3 +1,64 @@
+body {
+  background-color: #f9f7fe;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 700px;
+  margin: 60px auto;
+  background-color: white;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 8px;
+}
+h1 {
+  text-align: center;
+  font-size: 34px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+  margin: 0 0 6px;
+  font-size: 28px;
+}
+select {
+  display: block;
+  width: 80%;
+  background-color: #fdfffe;
+  padding: 15px;
+  margin: 8px;
+  font-size: 18px;
+  border-radius: 6px;
+  border: 1px solid rgb(5, 5, 109);
+}
+
+.city {
+  display: flex;
+  margin: 10px 0;
+  justify-content: space-between;
+  padding: 30px 0;
+  border-bottom: 1px dashed rgb(207, 205, 205);
+}
+.city:last-child {
+  border: none;
+}
+
+.time {
+  font-size: 46px;
+  font-weight: bold;
+}
+.time small {
+  font-size: 24px;
+  line-height: 36px;
+  vertical-align: middle;
+}
+.date {
+  opacity: 0.6;
+}
+
 footer {
   text-align: center;
+  margin-top: 26px;
+  color: #4f8d80;
 }
