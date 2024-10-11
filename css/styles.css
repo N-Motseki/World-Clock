@@ -1,12 +1,16 @@
 body {
-  background-color: #f9f7fe;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgba(216, 241, 230, 0.46) 0.1%,
+    rgba(233, 226, 226, 0.28) 90.1%
+  );
   font-family: sans-serif;
 }
 
 .container {
   max-width: 700px;
   margin: 60px auto;
-  background-color: white;
+  background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
   padding: 30px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
@@ -25,7 +29,11 @@ h2 {
 select {
   display: block;
   width: 80%;
-  background-color: #fdfffe;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgba(216, 241, 230, 0.46) 0.1%,
+    rgba(233, 226, 226, 0.28) 90.1%
+  );
   padding: 15px;
   margin: 8px;
   font-size: 18px;
